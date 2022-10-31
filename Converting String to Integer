@@ -1,0 +1,14 @@
+import java.util.*;
+public class Practice2 {
+    public static void main(String[] args){
+        // Convert String to Integer
+        String s = "123";
+        int n  = Integer.parseInt(s);
+        System.out.println(n+2);
+        //Convert Int to String
+//        int n = 22;
+//        String s = Integer.toString(n);
+//        System.out.println(s+1);
+
+    }
+}
