@@ -1,0 +1,34 @@
+// Writing a file in java
+
+import java.io.*;
+public class Practice2 {
+    public static void main(String[] args){
+        try {
+            BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Acer\\Documents\\sumith\\sonu.txt"));
+            bw.write("Sumith");
+            bw.write("Amin");
+            bw.close();
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+
+    }
+}
+
+// Reading a file in java
+
+import java.io.*;
+public class Practice2 {
+    public static void main(String[] args){
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Acer\\Documents\\sumith\\sonu.txt"));
+            String s ;
+            while ((s = br.readLine())!=null){
+                System.out.println(s);
+            }
+        } catch (IOException e) {
+            System.out.println(e);
+        }
+
+    }
+}
