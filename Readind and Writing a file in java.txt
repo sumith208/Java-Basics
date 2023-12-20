@@ -1,5 +1,5 @@
 // Writing a file in java
-
+//Java Code
 import java.io.*;
 public class Practice2 {
     public static void main(String[] args){
